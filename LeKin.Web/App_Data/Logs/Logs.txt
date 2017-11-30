@@ -1,0 +1,547 @@
+DEBUG 2017-11-30 09:37:27,147 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 09:37:27,159 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 09:37:27,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:27,171 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 09:37:27,463 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:37:27,463 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:37:27,463 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:37:27,463 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:37:27,823 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:37:29,924 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 09:37:29,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 09:37:29,949 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 09:37:29,950 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 09:37:29,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 09:37:30,020 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 09:37:30,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 09:37:30,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 09:37:30,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 09:37:31,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 09:37:31,569 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 09:37:31,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 09:37:31,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 09:37:31,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 09:37:31,582 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-11-30 09:40:17,712 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 09:40:17,723 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 09:40:17,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:17,735 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 09:40:17,951 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:40:17,952 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:40:17,952 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:40:17,952 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:40:18,228 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:40:20,086 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 09:40:20,123 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 09:40:20,133 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 09:40:20,135 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 09:40:20,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 09:40:20,220 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 09:40:20,264 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 09:40:20,264 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 09:40:20,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 09:40:20,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 09:40:21,746 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 09:40:21,747 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 09:40:21,748 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 09:40:21,749 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 09:40:21,749 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 09:40:21,750 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-11-30 09:42:52,740 [26   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-11-30 09:46:31,461 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 09:46:31,475 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 09:46:31,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,485 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:31,488 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 09:46:31,710 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:46:31,710 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:46:31,710 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:46:31,710 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:46:32,018 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:46:33,982 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 09:46:34,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 09:46:34,024 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 09:46:34,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 09:46:34,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 09:46:34,090 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 09:46:34,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 09:46:34,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 09:46:34,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 09:46:34,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 09:46:34,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 09:46:34,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 09:46:35,356 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 09:46:35,356 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 09:46:35,357 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 09:46:35,358 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 09:46:35,358 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 09:46:35,359 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-11-30 09:48:48,339 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 09:48:48,353 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 09:48:48,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:48,363 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 09:48:48,574 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:48:48,574 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:48:48,574 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:48:48,574 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:48:48,858 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:48:50,692 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 09:48:50,712 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 09:48:50,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 09:48:50,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 09:48:50,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 09:48:50,799 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 09:48:50,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 09:48:50,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 09:48:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 09:48:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 09:48:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 09:48:52,051 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 09:48:52,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 09:48:52,053 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 09:48:52,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 09:48:52,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 09:48:52,055 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-11-30 09:59:55,018 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 09:59:55,030 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 09:59:55,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:55,040 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 09:59:55,268 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:59:55,268 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:59:55,268 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:59:55,268 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 09:59:55,549 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 09:59:57,444 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 09:59:57,463 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 09:59:57,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 09:59:57,472 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 09:59:57,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 09:59:57,542 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 09:59:57,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 09:59:57,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 09:59:57,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 09:59:58,875 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 09:59:58,876 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 09:59:58,876 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 09:59:58,877 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 09:59:58,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 09:59:58,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-11-30 10:01:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 10:01:02,260 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 10:01:02,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:02,273 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 10:01:03,065 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:01:03,065 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:01:03,065 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:01:03,065 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:01:03,409 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:01:04,196 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 10:01:04,217 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 10:01:04,222 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 10:01:04,224 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 10:01:04,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 10:01:04,302 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 10:01:04,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 10:01:04,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 10:01:04,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 10:01:04,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 10:01:04,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 10:01:05,649 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 10:01:05,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 10:01:05,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 10:01:05,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 10:01:05,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 10:01:05,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-11-30 10:01:42,418 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-11-30 10:01:53,443 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"03c5ec3a-13fd-4194-9784-d2478c578112","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:01:53.4353944+08:00","Properties":{}}
+DEBUG 2017-11-30 10:01:53,479 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 03c5ec3a-13fd-4194-9784-d2478c578112
+DEBUG 2017-11-30 10:02:00,434 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 03c5ec3a-13fd-4194-9784-d2478c578112
+DEBUG 2017-11-30 10:02:02,611 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"95547d97-0bd4-41d9-9efa-558e99dc9431","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:02:02.6116679+08:00","Properties":{}}
+DEBUG 2017-11-30 10:02:02,621 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 95547d97-0bd4-41d9-9efa-558e99dc9431
+DEBUG 2017-11-30 10:02:24,893 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 95547d97-0bd4-41d9-9efa-558e99dc9431
+DEBUG 2017-11-30 10:02:25,220 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dfd7ac35-e8fc-4851-9195-55564fe73731","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:02:25.2209475+08:00","Properties":{}}
+DEBUG 2017-11-30 10:02:25,229 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dfd7ac35-e8fc-4851-9195-55564fe73731
+DEBUG 2017-11-30 10:02:29,750 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dfd7ac35-e8fc-4851-9195-55564fe73731
+DEBUG 2017-11-30 10:02:30,054 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b0d2617d-8bd7-4522-b8f1-d288bf7885b9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:02:30.0543069+08:00","Properties":{}}
+DEBUG 2017-11-30 10:02:30,062 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b0d2617d-8bd7-4522-b8f1-d288bf7885b9
+WARN  2017-11-30 10:02:32,808 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'LeKin'!
+DEBUG 2017-11-30 10:02:32,864 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b0d2617d-8bd7-4522-b8f1-d288bf7885b9
+DEBUG 2017-11-30 10:02:33,166 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"13e3c95e-e175-453a-bddc-0bd41ecbe10c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:02:33.1660936+08:00","Properties":{}}
+DEBUG 2017-11-30 10:02:33,173 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 13e3c95e-e175-453a-bddc-0bd41ecbe10c
+DEBUG 2017-11-30 10:02:35,973 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 13e3c95e-e175-453a-bddc-0bd41ecbe10c
+DEBUG 2017-11-30 10:02:36,287 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"102e1a48-60ce-4351-ad8b-0ccfc3c68381","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:02:36.2876335+08:00","Properties":{}}
+DEBUG 2017-11-30 10:02:36,299 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 102e1a48-60ce-4351-ad8b-0ccfc3c68381
+DEBUG 2017-11-30 10:06:53,396 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-30 10:06:53,408 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-11-30 10:06:53,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Web.LeKinWebModule, LeKin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinDataModule, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinCoreModule, LeKin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.LeKinApplicationModule, LeKin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LeKin.Api.LeKinWebApiModule, LeKin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:53,420 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-11-30 10:06:53,626 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:06:53,626 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:06:53,626 [1    ] o.Configuration.LanguageManagementConfig - Converted LeKin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:06:53,626 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-30 10:06:53,924 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LeKin.EntityFramework.LeKinDbContext, LeKin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-30 10:06:55,828 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-30 10:06:55,848 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-30 10:06:55,862 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-30 10:06:55,864 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LeKin
+DEBUG 2017-11-30 10:06:55,865 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-30 10:06:55,935 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-30 10:06:55,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-11-30 10:06:55,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-30 10:06:55,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.CreateUserDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UpdateUserDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Users.Dto.UserDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.PermissionDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Roles.Dto.RoleDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.MultiTenancy.Dto.TenantDto
+DEBUG 2017-11-30 10:06:55,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-11-30 10:06:55,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LeKin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-30 10:06:57,717 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-30 10:06:57,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-30 10:06:57,721 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-30 10:06:57,723 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-30 10:06:57,725 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-11-30 10:06:57,727 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LeKin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-11-30 10:07:25,639 [15   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-11-30 10:07:34,138 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f77dc028-e60d-40b9-a24d-5aa7b92c2c09","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:34.1328959+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:34,177 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f77dc028-e60d-40b9-a24d-5aa7b92c2c09
+DEBUG 2017-11-30 10:07:36,535 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f77dc028-e60d-40b9-a24d-5aa7b92c2c09
+DEBUG 2017-11-30 10:07:36,997 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a490b5b9-bc23-4d79-b8b8-a4aec1dae4aa","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:36.9978569+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:37,006 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a490b5b9-bc23-4d79-b8b8-a4aec1dae4aa
+DEBUG 2017-11-30 10:07:39,707 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a490b5b9-bc23-4d79-b8b8-a4aec1dae4aa
+DEBUG 2017-11-30 10:07:40,008 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c8902919-60db-4600-9940-dfdef15f855d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:40.0085081+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:40,022 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c8902919-60db-4600-9940-dfdef15f855d
+DEBUG 2017-11-30 10:07:42,494 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c8902919-60db-4600-9940-dfdef15f855d
+DEBUG 2017-11-30 10:07:42,989 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"51efe681-36f0-44ed-9154-d17b731b3d7e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:42.9891045+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:43,005 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 51efe681-36f0-44ed-9154-d17b731b3d7e
+DEBUG 2017-11-30 10:07:44,121 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 51efe681-36f0-44ed-9154-d17b731b3d7e
+DEBUG 2017-11-30 10:07:44,401 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cd35d7c1-e73d-43cf-b271-d4eeb3a77c07","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:44.401991+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:44,409 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cd35d7c1-e73d-43cf-b271-d4eeb3a77c07
+WARN  2017-11-30 10:07:47,012 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'LeKin'!
+DEBUG 2017-11-30 10:07:47,065 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cd35d7c1-e73d-43cf-b271-d4eeb3a77c07
+DEBUG 2017-11-30 10:07:47,360 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"78052780-317c-4784-b2b2-dd6e5189bf22","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:47.3603139+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:47,369 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 78052780-317c-4784-b2b2-dd6e5189bf22
+DEBUG 2017-11-30 10:07:49,787 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 78052780-317c-4784-b2b2-dd6e5189bf22
+DEBUG 2017-11-30 10:07:50,099 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"821eaed7-5b78-4bf1-8a68-f2ad6065349d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:50.0998158+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:50,108 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 821eaed7-5b78-4bf1-8a68-f2ad6065349d
+DEBUG 2017-11-30 10:07:52,798 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 821eaed7-5b78-4bf1-8a68-f2ad6065349d
+DEBUG 2017-11-30 10:07:53,105 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"68622a80-477a-4fbd-a265-43075c845d68","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:07:53.1053373+08:00","Properties":{}}
+DEBUG 2017-11-30 10:07:53,113 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 68622a80-477a-4fbd-a265-43075c845d68
+DEBUG 2017-11-30 10:08:34,415 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 68622a80-477a-4fbd-a265-43075c845d68
+DEBUG 2017-11-30 10:08:34,927 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e7ed821c-da35-4153-83b2-c1c7685febd2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-11-30T10:08:34.9271299+08:00","Properties":{}}
+DEBUG 2017-11-30 10:08:34,939 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e7ed821c-da35-4153-83b2-c1c7685febd2
+DEBUG 2017-11-30 10:08:47,650 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e7ed821c-da35-4153-83b2-c1c7685febd2
